@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/BreadyDog/static/css/main.d22774fb.css",
+    "main.js": "/BreadyDog/static/js/main.0585d621.js",
+    "static/media/promo3.png": "/BreadyDog/static/media/promo3.e7239b4b92233b11ceee.png",
+    "static/media/promo2.png": "/BreadyDog/static/media/promo2.6828aca413653174e0a7.png",
+    "static/media/promo11.png": "/BreadyDog/static/media/promo11.9674af28cb46c1659370.png",
+    "static/media/fon2.jpg": "/BreadyDog/static/media/fon2.cdbe763fcab428132d08.jpg",
+    "static/media/logo.png": "/BreadyDog/static/media/logo.f17a052ba89d59e93b7d.png",
+    "static/media/fon3.jpg": "/BreadyDog/static/media/fon3.73b518d6cc9aa8554381.jpg",
+    "static/media/fon4.jpg": "/BreadyDog/static/media/fon4.e4c558b31e49a5f3bd4c.jpg",
+    "static/media/tg.png": "/BreadyDog/static/media/tg.a6400fc9458b4b92f8a3.png",
+    "static/media/sale.png": "/BreadyDog/static/media/sale.842b21b493d3765aeed4.png",
+    "static/media/new.png": "/BreadyDog/static/media/new.a51558c78c389e4eb956.png",
+    "static/media/vk.png": "/BreadyDog/static/media/vk.8b65ba90e5224ce89a39.png",
+    "index.html": "/BreadyDog/index.html",
+    "main.d22774fb.css.map": "/BreadyDog/static/css/main.d22774fb.css.map",
+    "main.0585d621.js.map": "/BreadyDog/static/js/main.0585d621.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d22774fb.css",
+    "static/js/main.0585d621.js"
+  ]
+}
