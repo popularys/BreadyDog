@@ -1,0 +1,145 @@
+.logo {
+  display: grid;
+  gap: 4px;
+  justify-content: start;
+  text-align: center;
+}
+.logoImg {
+  height: 88px;
+}
+
+header {
+  color: #000;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 50px;
+}
+.badge-el {
+	position: relative;
+}
+.header__menu .badge-item {
+	display: flex;
+	position: absolute;
+	align-items: center;
+	justify-content: center;
+	background-color: rgba(19, 103, 0, 0.622);
+	color: white;
+	width: 20px;
+	height: 20px;
+	border-radius: 50%;
+	font-size: 12px;
+	top: -20%;
+	right: -20%;
+}
+.header__menu{
+	font-size: 25px;
+}
+
+.header__menu span{
+	font-size: 18px;
+	font-weight: 600;
+}
+.header__menu svg{
+	margin-left: 30px;
+}
+
+.navigation {
+  /*  position: fixed; */
+  height: 50px;
+  background-color: #08644d;
+  /* background-color: #ebebeb; */
+  color: azure;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: medium;
+  font-weight: 620;
+  padding: 10px 50px;
+}
+.navigation span {
+  font-size: smaller;
+  color: azure;
+}
+.navigation img {
+  margin-left: 4px;
+}
+
+footer{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	gap: 10px;
+	margin: 10px;
+	background-color: #08644d;
+	color: azure;
+	font-size: 14px;
+}
+.footerLink{
+	display: flex;
+	justify-content: space-between;
+	margin: 5px 0 5px 10px;
+}
+.footerInfo{
+	display: flex;
+	justify-content: space-between;
+	margin: 5px 0 5px 10px;
+}
+.footerContact{
+	margin: 5px 10px 5px 0px;
+	grid-row-end: 2 span;
+	display: grid;
+	grid-template-rows: repeat(3,1fr);
+	align-items: center;
+	justify-items: right;
+}
+.footerContact .tel{
+font-size: larger;
+font-weight: bold;
+}
+
+
+@media screen and (max-width: 1000px)  {
+	.header__menu{
+		font-size: 20px;
+	}
+		.header__menu span{
+		font-size: 15px;
+	}
+	.header__menu .badge-item {
+		width: 15px;
+		height: 15px;
+		font-size: 10px;
+		top: -25%;
+		right: -25%;
+	}
+}
+@media screen and (max-width: 900px)  {
+	header {
+		flex-wrap: wrap;
+		flex-direction: column;
+		padding: 10px 10px;
+	}
+	.header__menu{
+		font-size: 18px;
+	}
+		.header__menu span{
+		font-size: 12px;
+	}
+	.header__menu svg{
+		margin-left: 20px;
+	}
+	.navigation {
+		/*  position: fixed; */
+		height: auto;
+		flex-wrap: wrap;
+		flex-direction: column;
+		padding: 10px 20px;
+	}		
+	.footerContact{
+		font-size: smaller;
+	}
+	.footerInfo{
+		font-size: smaller;
+		}	
+		
+	}

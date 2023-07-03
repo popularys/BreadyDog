@@ -1,0 +1,92 @@
+.modal_window{
+position: fixed;
+background-color: rgb(215, 215, 215);
+top:0;
+bottom: 0;
+left: 0;
+right: 0;
+backdrop-filter: blur(1px)
+grayscale(50%);
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.modal_window_prod{
+	background-color: rgb(255, 255, 255);
+	top:0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	backdrop-filter: blur(1px)
+	grayscale(50%);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+}
+.modal_inside{
+	max-width: calc(100%-40px);
+	max-height: calc(100%-40px);
+	width: 400px;
+	background-color: rgb(146, 179, 208);
+	padding: 20px;
+	box-sizing: border-box;
+	border-radius: 4px;
+	overflow-y: auto;
+}
+.modal_inside_prod{
+	max-width: calc(100%-40px);
+	width: 400px;
+	background-color: rgb(146, 179, 208);
+	padding: 20px;
+	box-sizing: border-box;
+	border-radius: 4px;
+	position: relative;
+	overflow-y: auto;
+}
+.modal_button{
+	position: absolute;
+	background: none;
+	border: none;
+	right: 4px;
+	top: 4px;
+	font-size: larger;
+}
+.modal_button:hover{
+color: #0351c7;
+}
+.modal_inside h3{
+	margin-bottom: 30px;
+}
+form{
+	display: grid;
+	gap: 20px;
+}
+.modal_ctr{
+	display: grid;
+	grid-template-columns: repeat(2,1fr);
+	gap: 10px;
+}
+
+.modal_btn_log:disabled{
+	background-color: dimgrey;
+	color: linen;
+	opacity: 0.6;
+}
+.modal_link{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border: 1px solid;
+	border-radius: 4px;
+	cursor: pointer;
+}
+.modal_link:hover{
+	color: white;
+	background-color: #0351c7;
+}
+label{
+display: grid;
+gap: 4px;
+
+}

@@ -1,0 +1,27 @@
+.loader{
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	color: cadetblue;
+}
+.loader_image{
+	font-size: 4rem;
+	color: cadetblue;
+	line-height: 1;
+	display: flex;
+	align-items: center;
+	animation: animLoad 1s linear infinite;
+}
+@keyframes animLoad {
+	0%{
+		transform: rotate(0deg)
+	}
+	50%{
+		color: rgb(132, 221, 142);
+	}
+	100%{
+		transform: rotate(360deg)
+	}
+}

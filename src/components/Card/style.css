@@ -1,0 +1,65 @@
+.card{
+	padding: 10px;
+	display: grid;
+	gap: 10px;
+	background-color: white;
+	color: teal;
+	border-radius: 4px;
+	text-align: center;
+}
+.card_image{
+	height: 100px;
+	justify-self: center;
+	background-size: cover;
+}
+.card_button{
+	border: none;
+	outline: none;
+	height: 30px;
+	background-color: rgb(166, 235, 191);
+	color: teal;
+	border-radius: 4px;
+	
+}
+
+.card_button_disabled{
+	border: none;
+	outline: none;
+	height: 30px;
+	background-color: rgb(235, 217, 129);
+	color: rgb(219, 11, 126);
+	border-radius: 4px;
+}
+
+.card_button:hover{
+	color: rgb(255, 255, 255);
+	background-color: rgb(38, 194, 97);
+}
+.headCard{
+	display: flex;
+	justify-content: right;
+	align-items: center;
+	position: relative;
+}
+.loveIcon svg{
+position: absolute;
+color: crimson;
+top:0px;
+left: 0px;
+font-size: 25px;
+}
+
+.newSaleIcon img{
+width: 64px;
+}
+@media screen and (max-width: 567px)  {
+	.card{
+		grid-column-end: 2 span;
+	}
+}
+@media screen and (max-width: 820px)  {
+	.headCard{
+		flex-direction: column;
+		align-items: end;
+	}
+}		
