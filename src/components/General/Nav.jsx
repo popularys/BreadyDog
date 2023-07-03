@@ -18,7 +18,7 @@ const Nav = ({ user }) => {
 				<Link to={TG} target="_blank"><img width="28px" src={pathIconTG} alt="Телеграмм" /></Link>
 			</div>
 			<Link to="tel:+79035034031"><TelephoneInboundFill />&nbsp;<span>+7(916)7779969</span></Link>
-			<Link to="#"><GeoAltFill />&nbsp;<span>г. Можайск, ул. Мира д. 12</span></Link>
+			<Link to="#"><GeoAltFill />&nbsp;<span>г. Можайск, ул. Мира, д. 12</span></Link>
 			{!user && <span style={{ visibility: "hidden" }}></span>}
 			{user && <span style={{ visibility: "visible" }}>
 				<SearchProd />

@@ -24,7 +24,7 @@ const Footer = ({ user }) => {
 		<div className="footerContact">
 			<div className="tel"><Link to="tel:+79167779969">+7(916)7779969</Link></div>
 			<div><Link to="mailto:info@breadydog.ru">info@breadydog.ru</Link></div>
-			<div><Link to="#">г. Можайск, ул. Мира д. 12</Link></div>
+			<div><Link to="#">г. Можайск, ул. Мира, д. 12</Link></div>
 		</div>
 		<div className="footerInfo">
 			СПАСИБО ОГРОМНОЕ ДИМЕ КИМУ ЗА ПОМОЩЬ!
